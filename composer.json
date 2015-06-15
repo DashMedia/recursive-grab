@@ -1,0 +1,33 @@
+{
+    "name": "dashmedia/recursive-grab",
+    "description": "",
+    "type": "modx-package",
+    "keywords": ["modx","repoman"],
+    "homepage": "https://github.com/dashmedia/recursive-grab",
+    "license": "GPL-2.0+",
+    "authors": [
+        {
+            "name": "Jason Carney",
+            "email": "jason@dashmedia.com.au",
+            "homepage" : "https://dashmedia.com.au/"
+        }        
+    ],
+    "support": {
+        "email": "jason@dashmedia.com.au",
+        "issues": "https://github.com/dashmedia/recursive-grab/issues",
+        "source": "https://github.com/dashmedia/recursive-grab.git"
+    },    
+    "require": {
+        "php": ">=5.3"
+    },
+    "autoload": {
+        "classmap":["model/"]
+    },
+    "extra": {
+        "package_name": "recursiveGrab",
+        "namespace": "recursivegrab",
+        "version": "0.1.0",
+        "release": "beta",
+        "category":"recursiveGrab"
+    }
+}
