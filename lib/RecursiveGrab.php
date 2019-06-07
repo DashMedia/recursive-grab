@@ -26,6 +26,9 @@ class RecursiveGrab{
     			return $value;
     		} else {
     			//no value, try parent
+                if($resource->parent == 0){
+                    return ''; //no parent
+                }
     			$parent = $this->modx->getObject('modResource', $resource->parent);
     			return $this->recursiveGrab($tvName, $parent);
     		}
