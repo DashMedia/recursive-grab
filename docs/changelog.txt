@@ -1,5 +1,11 @@
 Changelog for RecursiveGrab
 
+RecursiveGrab 0.2.0-beta
+---------------------------------
+
+- BUG FIX: Replacing `$modx->getObject('modDocument',$variable);` with `$modx->getObject('modResource',$variable);`
+
 RecursiveGrab 0.1.0-beta
 ---------------------------------
+
 - Inital version

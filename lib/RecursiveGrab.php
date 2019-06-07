@@ -12,9 +12,9 @@ class RecursiveGrab{
     	$pageId = $modx->getOption('id',$scriptProperties,$thisId);
     	//get fallback page id
         $fallbackDoc = $modx->getOption('fallbackId',$scriptProperties,null);
-    	//grab modDocument instances
-    	$this->resource = $modx->getObject('modDocument',$pageId);
-    	$this->fallback = $modx->getObject('modDocument',$fallbackDoc);
+    	//grab modResource instances
+    	$this->resource = $modx->getObject('modResource',$pageId);
+    	$this->fallback = $modx->getObject('modResource',$fallbackDoc);
     }
 
     private function recursiveGrab($tvName, $resource){

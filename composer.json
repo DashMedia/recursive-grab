@@ -9,11 +9,21 @@
         {
             "name": "Jason Carney",
             "email": "jason@dashmedia.com.au",
-            "homepage" : "https://dashmedia.com.au/"
-        }        
+            "homepage" : "https://dash.marketing/"
+        },
+        {
+            "name": "Aayush Sapkota",
+            "email": "aayush@dashmedia.com.au",
+            "homepage": "https://dash.marketing/"
+        },
+        {
+            "name": "Jonathan Haslett",
+            "email": "jon@dashmedia.com.au",
+            "homepage": "https://dash.marketing/"
+        }
     ],
     "support": {
-        "email": "jason@dashmedia.com.au",
+        "email": "support@dash.marketing",
         "issues": "https://github.com/dashmedia/recursive-grab/issues",
         "source": "https://github.com/dashmedia/recursive-grab.git"
     },    
@@ -26,7 +36,7 @@
     "extra": {
         "package_name": "recursiveGrab",
         "namespace": "recursivegrab",
-        "version": "0.1.0",
+        "version": "0.2.0",
         "release": "beta",
         "category":"recursiveGrab"
     }
